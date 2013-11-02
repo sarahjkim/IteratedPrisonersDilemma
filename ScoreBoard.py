@@ -61,3 +61,9 @@ class ScoreBoard:
           Returns the Move.* done by player in round roundNum.
         """
         return (self.moves[roundNum])[player]
+
+    def get_other_player_move(self, roundNum, yourID):
+        """
+          Returns the Move.* done by the other player in round roundNum.
+        """
+        return self.get_player_move(roundNum, yourID ^ 1)

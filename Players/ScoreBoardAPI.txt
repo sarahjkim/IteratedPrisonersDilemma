@@ -21,3 +21,8 @@ class ScoreBoard:
         """
         Returns the Move.* done by player in round roundNum.
         """
+
+    def get_other_player_move(self, roundNum, yourID):
+        """
+        Returns the Move.* done by the other player in round roundNum.
+        """
