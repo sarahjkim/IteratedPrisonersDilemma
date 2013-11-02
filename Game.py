@@ -18,4 +18,4 @@ def opposite_move(move):
     return (STAY_SILENT if move == RAT_OUT else  RAT_OUT)
 
 def communication_failed():
-    return random.randint(0, 4) == 0
+    return random.randint(0, 9) == 0
