@@ -1,8 +1,10 @@
 Iterated Prisoner's Dilemma:
+----------------------------
 
 This is a tournament for the iterated prisoners' dilemma game.
 
-Instructions
+Instructions:
+-------------
 
 - Pull code from github at git@github.com:Cisco-Meraki-CFG/IteratedPrisonersDilemma.git
 
